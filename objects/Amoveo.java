@@ -12,29 +12,28 @@ import states.Settings;
  */
 public class Amoveo extends Inimicus
 {
+	public static final int   SIZE   = 50;
+	public static final int   SPEED  = 8;
+	public static final int   DAMAGE = 10;
+	public static final int   VALUE  = 15;
+	public static final Color COLOR  = Settings.themes.amoveoColor;
 	
-    public static final int   SIZE   = 50;
-    public static final int   SPEED  = 8;
-    public static final int   DAMAGE = 10;
-    public static final int   VALUE  = 15;
-    public static final Color COLOR  = Settings.themes.amoveoColor;
-    
-    
-    /**
-     * Constructor.
-     * @param x Initial x position
-     * @param y Initial y position
-     */
-    public Amoveo(int x, int y)
-    {
-    	setX(x);
-        setY(y);
-        
-        setSize  (SIZE  );
-        setSpeed (SPEED );
-        setDamage(DAMAGE);
-        setValue (VALUE );
-        setColor (COLOR );
+	
+	/**
+	 * Constructor.
+	 * @param x Initial x position
+	 * @param y Initial y position
+	 */
+	public Amoveo(int x, int y)
+	{
+		setX(x);
+		setY(y);
+		
+		setSize  (SIZE  );
+		setSpeed (SPEED );
+		setDamage(DAMAGE);
+		setValue (VALUE );
+		setColor (COLOR );
     }
     
     
