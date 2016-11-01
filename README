@@ -1,0 +1,5 @@
+To compile and play Orbis do the following!
+
+In the Orbis directory, type
+	make
+	make run
